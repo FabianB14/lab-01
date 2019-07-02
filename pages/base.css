@@ -1,0 +1,25 @@
+div{
+  border: .1px solid black;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  float: left;
+  vertical-align: middle;
+  line-height: auto;
+  box-sizing: border-box;
+}
+
+@media(max-width: 768px){
+  div{
+    border: .1px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    float: left;
+    vertical-align: middle;
+    line-height: auto;
+  }
+}
+
+
+
