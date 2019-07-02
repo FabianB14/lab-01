@@ -1,0 +1,72 @@
+@media(max-width:768px){
+
+  #container{
+    width: 480px;
+    height: 767px;
+    border: white;
+  }
+  #first{
+    width: 480px;
+    height: 75px;
+    background-color: red;
+    vertical-align: middle;
+    line-height: 75px;
+  }
+  
+  div:nth-child(2){
+    width: 480px;
+    height: 150px;
+    background-color: red;
+    vertical-align: middle;
+    line-height: 150px;
+  }
+  div:nth-child(3){
+    width: 480px;
+    height: 125px;
+    background-color: yellow;
+    vertical-align: middle;
+    line-height: 125px;
+  }
+  div:nth-child(4){
+    width: 480px;
+    height: 125px;
+    background-color:green;
+    vertical-align: middle;
+    line-height: 125px;
+  }
+  div:nth-child(5){
+    width: 240px;
+    height: 250px;
+    background-color:orange;
+    vertical-align: middle;
+    line-height: 250px;
+  }
+  div:nth-child(6){
+    width: 240px;
+    height: 250px;
+    background-color:pink;
+    vertical-align: middle;
+    line-height: 250px;
+  }
+  div:nth-child(7){
+    width: 240px;
+    height: 250px;
+    background-color:purple;
+    vertical-align: middle;
+    line-height: 250px;
+  }
+  div:nth-child(8){
+    width: 240px;
+    height: 250px;
+    background-color:cyan;
+    vertical-align: middle;
+    line-height: 250px;
+  }
+  div:nth-child(9){
+    width: 480px;
+    height: 80px;
+    background-color:cyan;
+    vertical-align: middle;
+    line-height: 80px;
+  }
+}
