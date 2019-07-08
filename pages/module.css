@@ -3,12 +3,13 @@
   #container{
     width: 480px;
     height: 767px;
-    border: white;
+    border: black;
+    display: flex;
   }
   #first{
     width: 480px;
     height: 75px;
-    background-color: red;
+    background-color: blue;
     vertical-align: middle;
     line-height: 75px;
   }
@@ -16,56 +17,127 @@
   div:nth-child(2){
     width: 480px;
     height: 150px;
-    background-color: red;
+    background-color: blueviolet;
     vertical-align: middle;
     line-height: 150px;
   }
   div:nth-child(3){
     width: 480px;
     height: 125px;
-    background-color: yellow;
+    background-color: indigo;
     vertical-align: middle;
     line-height: 125px;
   }
   div:nth-child(4){
     width: 480px;
     height: 125px;
-    background-color:green;
+    background-color:royalblue;
     vertical-align: middle;
     line-height: 125px;
   }
   div:nth-child(5){
     width: 240px;
     height: 250px;
-    background-color:orange;
+    background-color:seagreen;
     vertical-align: middle;
     line-height: 250px;
   }
   div:nth-child(6){
     width: 240px;
     height: 250px;
-    background-color:pink;
+    background-color:paleturquoise;
     vertical-align: middle;
     line-height: 250px;
   }
   div:nth-child(7){
     width: 240px;
     height: 250px;
-    background-color:purple;
+    background-color:pink;
     vertical-align: middle;
     line-height: 250px;
   }
   div:nth-child(8){
     width: 240px;
     height: 250px;
-    background-color:cyan;
+    background-color:rgb(79, 160, 106);
     vertical-align: middle;
     line-height: 250px;
   }
   div:nth-child(9){
     width: 480px;
     height: 80px;
-    background-color:cyan;
+    background-color:yellow;
+    vertical-align: middle;
+    line-height: 80px;
+  }
+}
+@media(max-width:850px ) and
+(min-width:768px){
+  #container{
+    width: 480px;
+    height: 767px;
+    border: black;
+  }
+  #first{
+    width: 480px;
+    height: 75px;
+    background-color: yellowgreen;
+    vertical-align: middle;
+    line-height: 75px;
+  }
+  
+  div:nth-child(2){
+    width: 480px;
+    height: 150px;
+    background-color: blue;
+    vertical-align: middle;
+    line-height: 150px;
+  }
+  div:nth-child(3){
+    width: 480px;
+    height: 125px;
+    background-color: rgb(135, 91, 170);
+    vertical-align: middle;
+    line-height: 125px;
+  }
+  div:nth-child(4){
+    width: 480px;
+    height: 125px;
+    background-color:goldenrod;
+    vertical-align: middle;
+    line-height: 125px;
+  }
+  div:nth-child(5){
+    width: 240px;
+    height: 250px;
+    background-color:orangered;
+    vertical-align: middle;
+    line-height: 250px;
+  }
+  div:nth-child(6){
+    width: 240px;
+    height: 250px;
+    background-color:cornflowerblue;
+    vertical-align: middle;
+    line-height: 250px;
+  }
+  div:nth-child(7){
+    width: 240px;
+    height: 250px;
+    background-color:maroon;
+    line-height: 250px;
+  }
+  div:nth-child(8){
+    width: 240px;
+    height: 250px;
+    background-color:yellow;
+    vertical-align: middle;
+    line-height: 250px;
+  }
+  div:nth-child(9){
+    width: 480px;
+    height: 80px;
+    background-color:indianred;
     vertical-align: middle;
     line-height: 80px;
   }
